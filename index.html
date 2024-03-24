@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>NavBar Responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="logo"><a href="index.html">Dynamic Coding with Prasenjit</a></div>
+        <div class="navbar" id="navbar">
+            <a href="#cover-section">Home</a>
+            <a href="#about-section">About</a>
+            <a href="#services-section">Services</a>
+            <a href="#product-section">Product</a>
+            <a href="#contact-section">Contact</a>
+        </div>
+        <div class="mobileview">
+            <input type="checkbox" id="change">
+        </div>
+    </div>
+
+
+    <!-- cover section starts -->
+    <div class="cover-section" id="cover-section">
+    <div class="cover-text">
+        <h2>Welcome to Dynamic Coding with Prasenjit</h2>
+        <p>"Your coding journey begins here."</p>
+    </div>
+    </div>
+<!-- cover section ends -->
+
+    <!-- about section  -->
+
+    <div class="about-section" id="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to Dynamic Coding with Prasenjit! We are a team of passionate developers dedicated to providing high-quality coding tutorials and resources to help you enhance your coding skills.</p>
+        <p>Our mission is to make learning to code fun, accessible, and rewarding for everyone. Whether you're a beginner or an experienced coder, we have something for you!</p>
+    </div>
+    <!-- about section ends  -->
+    
+    <!-- services section starts -->
+
+    <div class="services-section" id="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database Management</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Server Administration</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Custom Solutions</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+    <!-- services section ends-->
+
+    <!-- product section starts  -->
+
+    <div class="product-section" id="product-section">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card blue-bg">
+                <h3>Blue Product</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="product-card pink-bg">
+                <h3>Pink Product</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="product-card orange-bg">
+                <h3>Orange Product</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- product section ends -->
+
+    <!-- Product gallery starts -->
+    
+
+    <div class="photo-gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery"></div>
+        
+    </div>
+    
+    
+    <!-- Product gallery ends -->
+
+
+    <!-- testimonial section starts  -->
+    <div class="testimonial-section">
+        <h2>Testimonials</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <img src="testimonial2.jpeg" alt="User 1">
+                <div class="stars">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="review">"waku waku!!"</p>
+            </div>
+            <!-- Add more testimonials here -->
+        </div>
+        <div class="navigation">
+            <button id="prev">&#9664;</button>
+            <button id="next">&#9654;</button>
+        </div>
+    </div>
+    
+    <!-- testimonial section ends  -->
+
+    <!-- contact  section starts -->
+    <div class="contact-section" id="contact-section">
+        <h2>Contact Us</h2>
+        <form  id="contact-form" action="contactform.php" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <!-- Google Maps Embed -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.1399292359697!2d74.01270567383696!3d17.69084869399483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc239e8fb3221f3%3A0x596ce6764a0160ec!2sKaramveer%20Bhauro%20Patil%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1711258381684!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+    <!-- contact  section ends -->
+
+
+
+
+
+
+    <!-- footer  -->
+    <div class="Footer">
+        <!-- top footer  -->
+        <div class="footer_top">
+            <div class="call">
+                <i class="fa-solid fa-phone"></i>
+                +919325953589
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                prasenjitbhosale111@gmail.com
+            </div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                Mumbai,Maharashtra
+            </div>
+        </div>
+        <hr>
+
+        <!-- Middle footer -->
+        <div class="Middle_Footer">
+            <div class="About">
+                <h3>About</h3>
+                <li>Our Story</li>
+                <li>Awards</li>
+                <li>Our Teams</li>
+                <li>Carrier</li>
+            </div>
+            <div class="Company">
+                <h3>Company</h3>
+                <li>Our Service</li>
+                <li>Client</li>
+                <li>Contacts</li>
+                <li>Press</li>
+            </div>
+            <div class="Resource">
+                <h3>Resource</h3>
+                <li>Blog</li>
+                <li>Newsletter</li>
+                <li>Privacy Policy</li>
+            </div>
+            <div class="Subscribe">
+                <h3>Subscribe</h3>
+                <div class="searchbox">
+                    <input type="email" placeholder="Enter address">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+    
+    
+                <p>Get Digital Marketing Updates in Your MailBox</p>
+            </div>
+        </div>
+
+        
+
+        <!-- Bottom Footer  -->
+
+        <div class="Footer_bottom">
+            <div class="SocialMedia">
+                <i class="fa-brands fa-facebook"></i>
+                
+                <a href="https://www.linkedin.com/in/prasenjit-bhosale-678462212/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/prasenjitb1234" target="_blank"><i class="fa-brands fa-github"></i></a>
+                
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <p>&#9400 2024-2025 Prasenjit Bhosale. All Rights Reserve</p>
+        </div>
+
+
+    </div>
+
+    
+   <script src="script.js"></script>
+</body>
+</html>
