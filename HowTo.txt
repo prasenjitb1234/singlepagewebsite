@@ -1,0 +1,13 @@
+git status 
+git add .
+git commit -m 'first'
+git branch -M main
+git remote add origin https://github.com/prasenjitb1234/<URL repo name>
+git config --global user.name "name"
+git config --global user.name "prasenjitb1234"
+git config --global user.email "prasenjitbhosale1234@gmail.com"
+git push -u origin main
+
+
+
+
